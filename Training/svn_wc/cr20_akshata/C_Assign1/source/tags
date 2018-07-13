@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+bit_copy	bit_copy.c	/^int bit_copy(unsigned int snum,unsigned int dnum,int no_of_bit,int src_pos,int des_pos)$/;"	f
+bit_swap	bit_swap.c	/^int bit_swap(unsigned int num,int source,int destination)$/;"	f
+bit_swap2	bit_swap2.c	/^int bit_swap2(unsigned int snum,unsigned int dnum,int source,int destination)$/;"	f
+cnt_leading_cleared_bits	lead_trail_count.c	/^int cnt_leading_cleared_bits(int num)$/;"	f
+cnt_leading_set_bits	lead_trail_count.c	/^int cnt_leading_set_bits(int num)$/;"	f
+cnt_trailing_cleared_bits	lead_trail_count.c	/^int cnt_trailing_cleared_bits(int num)$/;"	f
+cnt_trailing_set_bits	lead_trail_count.c	/^int cnt_trailing_set_bits(int num)$/;"	f
+count_bit_clear	count.c	/^int count_bit_clear( int num)$/;"	f
+count_bit_set	count.c	/^int count_bit_set(int num)$/;"	f
+dec_to_bin	dectobin.c	/^int dec_to_bin(int num)$/;"	f
+even_bit_toggle	toggle.c	/^int even_bit_toggle(unsigned int num)$/;"	f
+getbits	getbit.c	/^unsigned int getbits(unsigned int num, int pos, int no_of_bit)$/;"	f
+invert	invert.c	/^int invert(unsigned int num,int pos,int no_of_bits)$/;"	f
+left_rotate_bits	left_rigt_rotate.c	/^int left_rotate_bits(unsigned int num)$/;"	f
+left_rotate_n_bits	left_rigt_rotate.c	/^int left_rotate_n_bits(unsigned int num,int n)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+my_atoi	my_atoi.c	/^int my_atoi(char *str)$/;"	f
+odd_bit_toggle	toggle.c	/^int odd_bit_toggle(unsigned int num)$/;"	f
+right_rotate_bits	left_rigt_rotate.c	/^int right_rotate_bits(unsigned int num)$/;"	f
+right_rotate_n_bits	left_rigt_rotate.c	/^int right_rotate_n_bits(unsigned int num,int n)$/;"	f
+setbit	setbit.c	/^int setbit(unsigned int src, int pos, int no_of_bits,unsigned int dest)$/;"	f

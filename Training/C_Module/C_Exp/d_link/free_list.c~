@@ -1,0 +1,61 @@
+#include "header.h"
+
+void free_list (struct master **mhead, int pos)
+{
+	struct master *mtemp = NULL;
+	struct node *new = NULL;
+	struct node *head = NULL;
+	struct node *temp = NULL;
+	int count = 1;
+	
+	if (*mhead == NULL) {
+		printf ("Empty list\n");
+		return;
+	} else if (*mhead -> mnext == *mhead) {
+		if (pos == 1) {
+			mtemp = *mhead;
+			*mhead = NULL;
+		} else {
+			printf ("Invalid input");
+			return;
+		}
+	} else {
+		mtemp = *mhead;
+		while (count < pos) {
+			count++;
+			mtemp = mtemp->mnext;
+		}
+
+		mtemp -> mprev -> mnext = mtemp -> mnext;
+		mtemp -> mnext -> mprev = mtemp -> mprev;
+		mtemp -> mnext = mtemp;
+		mtemp -> mprev = mtemp;
+
+		head = mtemp -> addr;
+		temp = head;
+
+
+	}
+	/*
+	head = mtemp -> addr;
+	temp = head -> prev;
+	while (temp != head) {
+		new = temp;
+		head -> prev = new -> prev;
+		new -> prev -> next = head;
+		new -> next = new;
+		new -> prev = new;
+		//free(new);
+		temp = temp -> prev;
+		//free(new);
+		printf("%d\n",temp->info);
+		printf("%d\n",new->info);
+	}
+
+	if(head -> next == head){
+		free(head);
+	} else {
+		printf("ERROR OCCURED\n");
+	}*/
+	//mtemp -> addr = NULL;					
+}

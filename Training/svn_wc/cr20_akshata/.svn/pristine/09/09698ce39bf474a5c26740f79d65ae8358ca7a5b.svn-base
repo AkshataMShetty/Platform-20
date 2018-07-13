@@ -1,0 +1,21 @@
+/* swap the bit values between source in snum and destination in dnum */
+
+#include"header.h"
+
+int bit_swap2(unsigned int snum,unsigned int dnum,int source,int destination)
+{
+	
+
+/*	num1 = ((snum >> source) & 1) ^ ((dnum >> destination) & 1);
+	temp = (num1 << source)	| (num1 << destination);
+	xor1 = temp ^ snum;
+	xor2 = temp ^ dnum;
+	printf("snum :");
+	dec_to_bin(xor1); 
+	printf("dnum :");
+	dec_to_bin(xor2);*/
+	if(((snum >> source) & 1) != ((dnum >> destination) & 1))
+		return 1;
+	else
+		return 0;
+}

@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+#define MAX 256
+
+int main(int argc, char *argv[])
+{
+	FILE *fp;
+	fp = fopen(argv[1],"r");
+	char *str;
+	str = argv[2];
+	char *buf;
+	int i;
+	int j;
+	int flag = 0;
+	int count = 0;
+	if(NULL == (buf = (char*)malloc(sizeof(char)*MAX))){
+		perror("malloc failure");
+		exit(EXIT_FAILURE);
+	}
+	if(argc < 3){
+		printf("invalid input\n");
+		exit(EXIT_FAILURE);
+	}
+	while(buf=fgets(buf, 80,fp)){
+		if((strstr(buf,str))){
+			flag = 1;
+		}
+		count++;
+//		printf("%s\n%s\n",buf,str);	
+		if(flag == 1){
+			printf("pattern found in %d\n",count);
+			return 0;
+		}
+	}
+	printf("pattern not found\n");
+	return 0;
+
+}

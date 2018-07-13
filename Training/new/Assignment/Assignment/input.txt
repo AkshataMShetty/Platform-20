@@ -1,0 +1,10 @@
+data1 = 123334
+data2 = ahdhsgd
+data3 data = 12345
+data4 = 111221 
+dat@1223    == 12345
+dara3 >=  14112
+data =< 445566
+data7   = 45754
+gddg5 fdb = 454
+dfbf

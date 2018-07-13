@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+#include<string.h>
+#define MAX 256
+int str_len( char *);
+int freq_of_occurance(const char* ,const char*);
+char *readinput(char*);
+char *my_index(const char* , int );

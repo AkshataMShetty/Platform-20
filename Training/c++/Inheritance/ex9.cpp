@@ -1,0 +1,28 @@
+/* When Constructor and Destructor functions are executed */
+
+#include <iostream>
+using namespace std;
+
+class base {
+	public:
+		base() {cout << "Constructing base\n"; }
+		~base() {cout << "Destructing base\n"; }
+};
+
+class derived1: public base{
+	public:
+		derived1() { cout << "constructing derived1\n";}
+		~derived1() { cout << "Destructing derived1\n";}
+};
+
+class derived2: public derived1{
+	public:
+		derived2() { cout << "constructing derived2\n";}
+		~derived2() { cout << "Destructing derived2\n";}
+};
+int main()
+{
+	derived2 ob;
+	return 0;
+}
+

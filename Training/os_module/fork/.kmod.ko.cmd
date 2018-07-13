@@ -1,0 +1,1 @@
+cmd_/home/akshata/Training/os_module/fork/kmod.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/akshata/Training/os_module/fork/kmod.ko /home/akshata/Training/os_module/fork/kmod.o /home/akshata/Training/os_module/fork/kmod.mod.o ;  true

@@ -1,0 +1,30 @@
+#include "header.h"
+
+int insert_at_pos (struct node **, int)
+{
+	if(input == 0){
+	                new -> next = head;
+					                head = new;
+									            } else {
+												                temp = head;
+																                while (temp) {
+																				                    count++;
+
+																									                    if (input == count) {
+																														                        new -> next = temp -> next;
+																																				                        temp -> next = new;
+																																										                        break;
+																																																                    }
+																																																					                    temp = temp -> next;
+																																																										                }
+
+																																																														                if (!temp) {
+																																																																		                    printf ("Invalid position\n");
+																																																																							                    free (new);
+																																																																												                } else {
+																																																																																                    printf ("Enter value for new node:\n");
+																																																																																					                    new -> info = my_atoi (readinput (ptr));
+																																																																																										                }
+																																																																																														            }
+
+}

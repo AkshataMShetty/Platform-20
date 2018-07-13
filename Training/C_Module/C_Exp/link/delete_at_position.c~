@@ -1,0 +1,28 @@
+#include "header.h"
+
+int delete_at_pos (struct node **head, int pos)
+{
+	count = 0;if (input <= 0) {
+	                printf ("Invalid input\n");
+					            } else if(input == 1){
+								                if (NULL == head)
+												                {
+																                    printf("empty list\n");
+																					                } else{
+																									                    num = delete_at_front (&head);
+																														                    printf ("Deleted element: %d\n", num);
+																																			                }
+																																							            } else if (input > 1){
+																																										                if (NULL == head || NULL == head -> next) {
+																																														                    printf ("Invalid input\n");
+																																																			                } else if (NULL != head -> next) {
+																																																							                    temp = head;
+																																																												                    while (temp -> next -> next) {
+																																																																	                        count++;
+																																																																							                        if ((input - 1) == count) {
+																																																																													                            new = temp -> next;
+																																																																																				                            temp -> next = new -> next;
+																																																																																											                            new -> next = NULL;
+																																																																																																		                            num = new -> info;
+
+}

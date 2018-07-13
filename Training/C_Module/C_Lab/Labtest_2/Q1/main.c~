@@ -1,0 +1,51 @@
+#include"header.h"
+
+int main(void)
+{
+	char *ptr = NULL;
+	char *str = NULL;
+	char *sub_str = NULL;
+	int num;
+	int choice;
+	if(NULL == (ptr = (char*)malloc(sizeof(char) * MAX)))
+	{
+		perror("malloc failure\n");
+		exit(EXIT_FAILURE);
+	}
+	if(NULL == (str = (char*)malloc(sizeof(char) * MAX)))
+    {
+        perror("malloc failure\n");
+        exit(EXIT_FAILURE);
+    }
+	if(NULL == (sub_str = (char*)malloc(sizeof(char) * MAX)))
+    {
+        perror("malloc failure\n");
+        exit(EXIT_FAILURE);
+    }
+
+	printf("enter the choice\n");
+	choice = atoi(readinput(ptr));
+	switch(choice)
+	{
+		case 1:
+				printf("enter a string\n");
+				str = readinput(str);
+				printf("enter a substring \n");
+				sub_str = readinput(sub_str);
+
+				num = freq_of_occurance(str,sub_str);
+
+				printf("occurence of substring = %d\n",num);
+				break;
+		case 2:
+				printf("enter the string\n");
+				str = readinput(str);
+				printf("enter the index\n");
+				num = atoi(readinput(ptr));
+
+				sub_str = my_index(str,num);
+				printf("string is = %s\n",sub_str);
+				break;
+	}
+	return 0;
+}

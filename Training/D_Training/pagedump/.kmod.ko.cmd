@@ -1,0 +1,1 @@
+cmd_/home/akshata/pagedump/kmod.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/akshata/pagedump/kmod.ko /home/akshata/pagedump/kmod.o /home/akshata/pagedump/kmod.mod.o ;  true

@@ -1,0 +1,42 @@
+#include "header.h"
+
+int
+delete_at_end (struct node **head)
+{
+  struct node *new = NULL;
+  int temp;
+  if (NULL == head)
+    {
+      printf ("Empty list\n");
+    }
+  else if (NULL == head->next)
+    {
+      printf ("Deleted element: %d\n", head->info);
+      free (head);
+      head = NULL;
+    }
+  else
+    {
+      temp = head;
+
+      while (temp->next->next)
+	{
+	  temp = temp->next;
+	}
+      new = temp->next;
+      temp->next = NULL;
+
+      printf ("Deleted element: %d\n", new->info);
+
+      free (new);
+    }
+
+  new = *head;
+  *head = (*head)->next;
+  new->next = NULL;
+  temp = new->info;
+  free (new);
+
+  return temp;
+
+}

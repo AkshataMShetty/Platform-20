@@ -1,0 +1,2 @@
+Writing Using fd
+Writing using file ptr
