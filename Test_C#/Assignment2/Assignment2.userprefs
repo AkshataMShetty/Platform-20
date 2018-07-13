@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment2_Q2/ShapeOperation.cs">
+    <Files>
+      <File FileName="Assignment2_Q2/ShapeUI.cs" Line="5" Column="15" />
+      <File FileName="Assignment2_Q2/ShapeOperation.cs" Line="77" Column="84" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

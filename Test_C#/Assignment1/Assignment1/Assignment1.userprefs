@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment1_MatrixArrangement/SortingOperations.cs">
+    <Files>
+      <File FileName="Assignment1_MatrixArrangement/Program.cs" Line="16" Column="1" />
+      <File FileName="Assignment1_MatrixArrangement/SortingOperations.cs" Line="132" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

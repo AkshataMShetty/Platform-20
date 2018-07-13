@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2_Q1", "Assignment2\Assignment2_Q1.csproj", "{9C23EC91-2AFD-4903-9C12-48918E19CB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationLib", "ValidationLib\ValidationLib.csproj", "{D0AA42E4-C653-481A-80CC-8F37DF90EE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2_Q2", "Assignment2_Q2\Assignment2_Q2.csproj", "{84E04FE1-5B9F-435C-B1BD-588165CA06FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84E04FE1-5B9F-435C-B1BD-588165CA06FE}.Debug|x86.ActiveCfg = Debug|x86
+		{84E04FE1-5B9F-435C-B1BD-588165CA06FE}.Debug|x86.Build.0 = Debug|x86
+		{84E04FE1-5B9F-435C-B1BD-588165CA06FE}.Release|x86.ActiveCfg = Release|x86
+		{84E04FE1-5B9F-435C-B1BD-588165CA06FE}.Release|x86.Build.0 = Release|x86
+		{9C23EC91-2AFD-4903-9C12-48918E19CB64}.Debug|x86.ActiveCfg = Debug|x86
+		{9C23EC91-2AFD-4903-9C12-48918E19CB64}.Debug|x86.Build.0 = Debug|x86
+		{9C23EC91-2AFD-4903-9C12-48918E19CB64}.Release|x86.ActiveCfg = Release|x86
+		{9C23EC91-2AFD-4903-9C12-48918E19CB64}.Release|x86.Build.0 = Release|x86
+		{D0AA42E4-C653-481A-80CC-8F37DF90EE7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0AA42E4-C653-481A-80CC-8F37DF90EE7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0AA42E4-C653-481A-80CC-8F37DF90EE7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0AA42E4-C653-481A-80CC-8F37DF90EE7E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assignment2_Q2\Assignment2_Q2.csproj
+	EndGlobalSection
+EndGlobal

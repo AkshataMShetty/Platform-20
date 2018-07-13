@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_fibo", "Assignment1_fibo\Assignment1_fibo.csproj", "{33FFE82E-9EA9-40EE-858F-A707C26BFCF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_CI", "CompoundInterest\Assignment1_CI.csproj", "{E6173F5C-BF77-4615-99AC-F3258A33CCB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_CreditCard", "Assignment1_CreditCard\Assignment1_CreditCard.csproj", "{F8A02F87-E4D1-49EF-A901-1AEA34CB5B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateLib", "ValidateLib\ValidateLib.csproj", "{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_Mileage", "Assignment1_Mileage\Assignment1_Mileage.csproj", "{8DF1B0E5-7773-4E59-BD39-4B8F22E9145E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_StudentRes", "Assignment1_StudentRes\Assignment1_StudentRes.csproj", "{B2C7BFD2-D202-4F34-8EBF-3313167C1F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_MatrixArrangement", "Assignment1_MatrixArrangement\Assignment1_MatrixArrangement.csproj", "{4159AB95-79D4-4AB1-8AE2-ADD897FA502E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33FFE82E-9EA9-40EE-858F-A707C26BFCF2}.Debug|x86.ActiveCfg = Debug|x86
+		{33FFE82E-9EA9-40EE-858F-A707C26BFCF2}.Debug|x86.Build.0 = Debug|x86
+		{33FFE82E-9EA9-40EE-858F-A707C26BFCF2}.Release|x86.ActiveCfg = Release|x86
+		{33FFE82E-9EA9-40EE-858F-A707C26BFCF2}.Release|x86.Build.0 = Release|x86
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Release|x86.Build.0 = Release|Any CPU
+		{4159AB95-79D4-4AB1-8AE2-ADD897FA502E}.Debug|x86.ActiveCfg = Debug|x86
+		{4159AB95-79D4-4AB1-8AE2-ADD897FA502E}.Debug|x86.Build.0 = Debug|x86
+		{4159AB95-79D4-4AB1-8AE2-ADD897FA502E}.Release|x86.ActiveCfg = Release|x86
+		{4159AB95-79D4-4AB1-8AE2-ADD897FA502E}.Release|x86.Build.0 = Release|x86
+		{8DF1B0E5-7773-4E59-BD39-4B8F22E9145E}.Debug|x86.ActiveCfg = Debug|x86
+		{8DF1B0E5-7773-4E59-BD39-4B8F22E9145E}.Debug|x86.Build.0 = Debug|x86
+		{8DF1B0E5-7773-4E59-BD39-4B8F22E9145E}.Release|x86.ActiveCfg = Release|x86
+		{8DF1B0E5-7773-4E59-BD39-4B8F22E9145E}.Release|x86.Build.0 = Release|x86
+		{B2C7BFD2-D202-4F34-8EBF-3313167C1F2E}.Debug|x86.ActiveCfg = Debug|x86
+		{B2C7BFD2-D202-4F34-8EBF-3313167C1F2E}.Debug|x86.Build.0 = Debug|x86
+		{B2C7BFD2-D202-4F34-8EBF-3313167C1F2E}.Release|x86.ActiveCfg = Release|x86
+		{B2C7BFD2-D202-4F34-8EBF-3313167C1F2E}.Release|x86.Build.0 = Release|x86
+		{E6173F5C-BF77-4615-99AC-F3258A33CCB8}.Debug|x86.ActiveCfg = Debug|x86
+		{E6173F5C-BF77-4615-99AC-F3258A33CCB8}.Debug|x86.Build.0 = Debug|x86
+		{E6173F5C-BF77-4615-99AC-F3258A33CCB8}.Release|x86.ActiveCfg = Release|x86
+		{E6173F5C-BF77-4615-99AC-F3258A33CCB8}.Release|x86.Build.0 = Release|x86
+		{F8A02F87-E4D1-49EF-A901-1AEA34CB5B62}.Debug|x86.ActiveCfg = Debug|x86
+		{F8A02F87-E4D1-49EF-A901-1AEA34CB5B62}.Debug|x86.Build.0 = Debug|x86
+		{F8A02F87-E4D1-49EF-A901-1AEA34CB5B62}.Release|x86.ActiveCfg = Release|x86
+		{F8A02F87-E4D1-49EF-A901-1AEA34CB5B62}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assignment1_MatrixArrangement\Assignment1_MatrixArrangement.csproj
+	EndGlobalSection
+EndGlobal

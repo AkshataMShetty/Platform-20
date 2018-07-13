@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3_Q1", "Assignment3\Assignment3_Q1.csproj", "{605F4251-E1F0-48DB-9A85-EECD91B2D3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3_Q2", "Assignment3_Q2\Assignment3_Q2.csproj", "{F1741663-8BE3-4014-9194-37A38F5868A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3_Q3", "Assignment3_Q3\Assignment3_Q3.csproj", "{8F4B0892-13D0-452D-B126-6A45FEB2625F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateLib", "..\..\Assignment1\Assignment1\ValidateLib\ValidateLib.csproj", "{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3_Q4", "Assignement4\Assignment3_Q4.csproj", "{CAD565D2-51F3-42CA-AE2B-E8966E7F0C36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E617783-FDA4-4CF4-AFA4-C0633CA0BFE5}.Release|x86.Build.0 = Release|Any CPU
+		{605F4251-E1F0-48DB-9A85-EECD91B2D3A9}.Debug|x86.ActiveCfg = Debug|x86
+		{605F4251-E1F0-48DB-9A85-EECD91B2D3A9}.Debug|x86.Build.0 = Debug|x86
+		{605F4251-E1F0-48DB-9A85-EECD91B2D3A9}.Release|x86.ActiveCfg = Release|x86
+		{605F4251-E1F0-48DB-9A85-EECD91B2D3A9}.Release|x86.Build.0 = Release|x86
+		{8F4B0892-13D0-452D-B126-6A45FEB2625F}.Debug|x86.ActiveCfg = Debug|x86
+		{8F4B0892-13D0-452D-B126-6A45FEB2625F}.Debug|x86.Build.0 = Debug|x86
+		{8F4B0892-13D0-452D-B126-6A45FEB2625F}.Release|x86.ActiveCfg = Release|x86
+		{8F4B0892-13D0-452D-B126-6A45FEB2625F}.Release|x86.Build.0 = Release|x86
+		{CAD565D2-51F3-42CA-AE2B-E8966E7F0C36}.Debug|x86.ActiveCfg = Debug|x86
+		{CAD565D2-51F3-42CA-AE2B-E8966E7F0C36}.Debug|x86.Build.0 = Debug|x86
+		{CAD565D2-51F3-42CA-AE2B-E8966E7F0C36}.Release|x86.ActiveCfg = Release|x86
+		{CAD565D2-51F3-42CA-AE2B-E8966E7F0C36}.Release|x86.Build.0 = Release|x86
+		{F1741663-8BE3-4014-9194-37A38F5868A5}.Debug|x86.ActiveCfg = Debug|x86
+		{F1741663-8BE3-4014-9194-37A38F5868A5}.Debug|x86.Build.0 = Debug|x86
+		{F1741663-8BE3-4014-9194-37A38F5868A5}.Release|x86.ActiveCfg = Release|x86
+		{F1741663-8BE3-4014-9194-37A38F5868A5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assignement4\Assignment3_Q4.csproj
+	EndGlobalSection
+EndGlobal

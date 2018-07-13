@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRollApp.Entities", "PayRollApp.Entities\PayRollApp.Entities.csproj", "{886A8283-CB69-4355-AA7D-307C1A4A97E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRollApp.UI", "PayRollApp.UI\PayRollApp.UI.csproj", "{AF59F21E-013C-4954-943C-1B7E4F220A1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886A8283-CB69-4355-AA7D-307C1A4A97E0}.Debug|x86.ActiveCfg = Debug|x86
+		{886A8283-CB69-4355-AA7D-307C1A4A97E0}.Debug|x86.Build.0 = Debug|x86
+		{886A8283-CB69-4355-AA7D-307C1A4A97E0}.Release|x86.ActiveCfg = Release|x86
+		{886A8283-CB69-4355-AA7D-307C1A4A97E0}.Release|x86.Build.0 = Release|x86
+		{AF59F21E-013C-4954-943C-1B7E4F220A1E}.Debug|x86.ActiveCfg = Debug|x86
+		{AF59F21E-013C-4954-943C-1B7E4F220A1E}.Debug|x86.Build.0 = Debug|x86
+		{AF59F21E-013C-4954-943C-1B7E4F220A1E}.Release|x86.ActiveCfg = Release|x86
+		{AF59F21E-013C-4954-943C-1B7E4F220A1E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PayRollApp.UI\PayRollApp.UI.csproj
+	EndGlobalSection
+EndGlobal
